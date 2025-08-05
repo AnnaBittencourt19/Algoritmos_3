@@ -1,0 +1,44 @@
+# Build directories
+cmake-build-debug/
+build/
+out/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+untitled*
+com_menu_gladiador
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
