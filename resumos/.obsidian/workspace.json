@@ -1,0 +1,260 @@
+{
+  "main": {
+    "id": "b1d108f33f865808",
+    "type": "split",
+    "children": [
+      {
+        "id": "28d9fdf4aa0651ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fbcbe592d3d367a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Revisão/Struct.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Struct"
+            }
+          },
+          {
+            "id": "98233864789f6a40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Força bruta e gulosa/Gulosa.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gulosa"
+            }
+          },
+          {
+            "id": "c824454a905caa7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Força bruta e gulosa/Problema da mochila (Knapsack Problem).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Problema da mochila (Knapsack Problem)"
+            }
+          },
+          {
+            "id": "e91efcac3e5514f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Força bruta e gulosa/Programação dinamica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Programação dinamica"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "a3e9becddac79bd4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15fa6213713f2c09",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "53c31bb12e4a011a",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa960ddf6cc903a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "334c669c71b1aa47",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "a59ef6b3d3f0c87c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "7a766aa654fe20d7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a85c9555f0495480",
+    "type": "split",
+    "children": [
+      {
+        "id": "45febf71e4bf9595",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49bd639a478eecab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Revisão/Struct.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Struct"
+            }
+          },
+          {
+            "id": "bfdaae1365fe8d68",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Revisão/Struct.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Struct"
+            }
+          },
+          {
+            "id": "b0cee31c84ffb009",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f90441ca4ca0f64c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Revisão/Struct.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Struct"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Criar nova base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "e91efcac3e5514f7",
+  "lastOpenFiles": [
+    "Força bruta e gulosa/Programação dinamica 2.md",
+    "Força bruta e gulosa/Problema da mochila (Knapsack Problem).md",
+    "Força bruta e gulosa/Gulosa.md",
+    "Força bruta e gulosa/Força bruta.md",
+    "Pasted image 20250828213951.png",
+    "Captura de Tela 2025-08-26 às 16.49.11.png",
+    "Força bruta e gulosa/Programação dinamica.md",
+    "SmartSelect_20250828_191806_Samsung Notes.jpg",
+    "SmartSelect_20250828_191736_Samsung Notes.jpg",
+    "Pasted image 20250828190707.png",
+    "Pasted image 20250828190654.png",
+    "Pasted image 20250828190643.png",
+    "Pasted image 20250827155928.png",
+    "Sem título.base",
+    "Pasted image 20250804122604.png",
+    "Pasted image 20250806150553.png",
+    "Força bruta e gulosa/Divisão e conquista.md",
+    "Revisão/Struct.md",
+    "Revisão/O que é um algoritmo.md",
+    "Força bruta e gulosa/Problema caixeiro viajante.md",
+    "Revisão/Vetores.md",
+    "Revisão/Busca sequencial.md",
+    "Revisão/Pensamento algorítmico.md",
+    "Força bruta e gulosa",
+    "Bem-vindo.md",
+    "Revisão"
+  ]
+}

@@ -1,0 +1,4 @@
+- testar todos, divide no meio e resolve por pedaços pequenos, divide em duas partes.
+- Primeira metade, segunda metade cada uma é uma resposta, não chega em uma resposta boa em combinações
+- busca e organização ela é boa.
+- Exemplo com vaga de estacionamento (dia a dia): Divide o estacionamento em partes e busca na mais promissora primeiro, é mais rápido que a força bruta e pode encontrar uma vaga boa

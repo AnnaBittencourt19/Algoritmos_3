@@ -1,0 +1,35 @@
+- Um vetor é uma estrutura de dados que armazena elementos do mesmo tipo. 
+- Principais características de um vetor:
+	 - Tamanho fixo (o tamanho é definido na criação do vetor)
+	 - Acesso por índice (começa no índice 0)
+	 - Os elementos são armazenados em sequência (0, 1, 2, 3...)
+- Exemplo: double notas[5\] (cria um vetor que aceita 5 elementos do tipo double, o vetor se "chama" notas)
+- Para percorrer um vetor usamos um loop for (com contador i)
+- Principais coisas de vetor:
+	 - Como declarar: tipo nome[tamanho\] (exemplo: int idade[10\])
+	 - Como atribuir valores: nome[indice\] = valor (exemplo: idade[0\] = 22)
+	 - Como acessar um vetor pelo indice: nome[indice\] (exemplo idade[0\])
+	 - Como inicializar e declarar mais de 1 valor? tipo nome[tamanho\] = {valor0, valor1, valor3}. Exemplo: string nomes[3\] = {"Anna", "Taiara", "Neusa"}. (Anna está no indice 0, Taiara no indice 1 e Neusa no 2)
+- Vetores resolvem problemas que envolvem coleções ordenadas de elementos do mesmo tipo. (notas, temperaturas).
+- Sort: Organiza elementos de um vetor em ordem crescente. 
+- Tamanho desconhecido: Vector.
+- Ordem sequencial 
+- Acesso a elementos pelo índice 
+
+Loop for: 
+- O loop for é utilizado para percorrer um vetor.
+- A estrutura básica de um for: ![[Pasted image 20250804122604.png]]
+- Observe que a variável i (que serve como contador) começa com o valor 0, isso ocorre pois os indices de um vetor começam a ser contabilizados do valor 0.
+- Podemos usar essa estrutura para imprimir valores que estão dentro desse vetor.
+	- Como ver todos os valores do vetor do exemplo?
+		- cout << vetor [i\] 
+		-A cada passada no loop for um elemento do vetor é impresso.
+		-Na primeira passada pelo for o elemento no índice 0 será impresso:
+			- Exemplo: vetor[0\] = "Hello";
+			- Na primeira passada pelo for será o Hello que será impresso
+- Podemos usar para coletar dados também:
+	- Como salvar dados nos indices de um vetor utilizando o for?
+		- cin << vetor[i\]
+		-A cada passada no loop for, o valor digitado será armazenado no índice equivalente.
+		-Na primeira passada pelo for iremos salvar a entrada em vetor[0/] e assim por diante.
+

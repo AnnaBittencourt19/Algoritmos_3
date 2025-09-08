@@ -1,0 +1,14 @@
+- Um algoritmo faz com que o computador siga instruções e transforme entrada em saída
+- É a sequência de passos que levam a solução de um problema
+- Os algoritmos devem ter essas propriedades:
+	- Finitude: Deve ter um fim
+	- Clareza: O algoritmo deve ser claro e não possuir ambiguidades
+	- Entrada: Ele pode ter 0 ou mais entradas
+	- Saída: Devem ter pelo menos 1 saída
+	- Efetividade: Passos a serem realizados
+	- Corretude: Sempre dá a resposta certa?
+	- Estabilidade/robustez: Meu código sabe lidar com os diferentes tipos de entrada? igual a zero por exemplo, entradas iguais...
+- Resumindo, um algoritmo é uma sequência finita de passos
+- Alguns algoritmos demoram mais ou menos para resolver um certo problema/situação, por isso existem analises de complexidade
+- A complexidade é analisada por as seguintes contagens: O(1), O(log n), O(n), O(n log n), O(nˆ2), O(2ˆn) ou O(n!)
+- Ao analisar a complexidade podemos ter os seguintes casos: Pior caso, caso médio e melhor caso

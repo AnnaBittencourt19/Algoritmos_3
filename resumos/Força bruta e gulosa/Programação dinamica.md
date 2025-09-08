@@ -1,0 +1,3 @@
+- Otimização achar a melhor solução
+- Só serve para otimização, achar a melhor opção
+- É basicamente uma derivada (de cálculo kkkk)
