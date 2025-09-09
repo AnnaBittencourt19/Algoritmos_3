@@ -79,22 +79,7 @@ return 0;
 
 }
 
-```
-- É um problema clássico de backtracking porque precisamos tentar uma posição, ver se funciona, e se não funcionar, desfazer e tentar outra
-- Esse problema é um dos que ilustra melhor como a força bruta funciona, ele testa todos os casos em cada linha, coluna e diagonal
 
-- Exemplo desenhado:
-![[Pasted image 20250828190643.png]]
-![[Pasted image 20250828190654.png]]
-![[Pasted image 20250828190707.png]]
- ![[SmartSelect_20250828_191736_Samsung Notes.jpg]]
- ![[SmartSelect_20250828_191806_Samsung Notes.jpg]]
- - E por ai vai os testes...
+```
 # Arvore de decisão da estratégia força bruta
 ![[Pasted image 20250827155928.png]]
-
-# Complexidade 
-
-- Para N-Queens: N! (n = quantidade de rainhas)
-- Para caixeiro viajante: (n-1)!/2 (numero de cidades - 1 fatorial)/2
-- Mochila: 2ˆn (n = numero de itens)

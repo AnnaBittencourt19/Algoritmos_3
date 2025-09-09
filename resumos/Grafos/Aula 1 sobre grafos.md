@@ -1,0 +1,4 @@
+- Foco mais na estrutura do que na lógica
+- São estruturas não lineares compostas por vétices(nós) interconectados por arestas(arcos)
+- Grafo (V,E)
+- Pode acessar de diversas formas diferentes

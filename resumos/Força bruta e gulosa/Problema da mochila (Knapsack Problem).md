@@ -1,4 +1,3 @@
-- Problema da mochila é um container loading problem
 - **Enunciado:** Imagine que você tem uma mochila com uma capacidade máxima de peso limitada. Há um conjunto de itens disponíveis, e cada item possui um valor e um peso específicos. O seu objetivo é escolher quais itens colocar na mochila de modo que o valor total dos itens dentro da mochila seja o maior possível, sem exceder a capacidade de peso da mochila.
 
 - Podemos resolver esse problema das seguintes formas:
@@ -31,26 +30,15 @@ Tag: [[Força bruta]]
 - Na força bruta utilizamos **todas as combinações possíveis** de itens, para cada item podemos coloca-lo ou não na mochila
 - item(peso, valor)
 - Complexidade 2ˆn (A complexidade cresce muito rápida)
-- Ela percorre todas as possibilidades de escolha entre 3 itens sendo: Item 1 (peso:2 e valor:12), item 2 (peso:1 e valor:10) e item 3(peso:3 e valor: 20), após percorrer todos os itens e possibilidades ele vê qual a melhor e que se adequa ao peso limite, nesse caso a melhor solução é a escolha dos itens 1 e 3 (peso= 5 e o valor=32)
-- C = Capacidade máxima
-- Complexidade: 2ˆn (n = numero de itens)
 
 # Problema da mochila por gulosa
 Tag: [[Gulosa]]
-- Cada objeto tem um peso e um lucro/valor
-- A mochila tem um máximo de peso 
-- Restrição o peso dos objetos na mochila deve ser menor ou igual a 15 (se o valor de capacidade máxima for 15)
-![[Pasted image 20250828213951.png]]
-- Ratio = razão entre o valor e o peso
-- Reordena os objetos do maior ratio para o menor
-- Vai escolhendo até o valor passar de 15 kg, quando passa de 15kg não pega o objeto
-```
 
+- Na estratégia gulosa é feito o ratio entre valor/peso e esse ratio é coloca em ordem, a gulosa vai "pegando" do maior ratio para o menor até não caber mais coisas (não garante solução ótima)
+- Complexidade: n
 
-```
+# Problema da mochila por dinâmica
+Tag: [[Programação dinamica]]
 
-Escolher os maiores ratios que juntos não excedem o peso 
-Mochila
-Caixeiro viajante
-Pendrive do simulado
-Linha de montagem
+- Divide o problema em subproblemas, garante a solução ótima
+- Complexidade: n x c  (número de itens vezes capacidade da mochila)
